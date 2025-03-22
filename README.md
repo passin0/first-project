@@ -1,13 +1,13 @@
 # 視覺追蹤無人機
 
 ## ✨ 專題程式介紹
-這個專案是一個培育「視覺追蹤無人機」的學術研究工程。案例使用 **MediaPipe** 進行物體追蹤，搭配 **DJITello-Python** 控制 Tello 無人機飛行，以及 **OpenCV** 進行影像處理。
+這個專案是一個嘗試開發「視覺追蹤無人機」的學生專題研究成果。專案中使用 **MediaPipe** 進行物體追蹤，搭配 **DJITello-Python** 控制 Tello 無人機飛行，以及 **OpenCV** 進行影像處理。
 
 ## ⚡ 功能簡介
-- 目標物的視覺追蹤 (MediaPipe + OpenCV)
+- 目標人的視覺追蹤 (MediaPipe + OpenCV)
 - 透過 Wi-Fi 控制 DJI Tello 無人機 (DJITello-Python)
-- 將目標物的定位數據作為功能調整依據
-- 影像處理並讓機器辨識環境
+- 將目標物的定位數據作為位置調整依據
+- 影像處理並讓機器辨識人物
 
 ## ⚖ 設計架構圖
 ![設計架構圖](images/pic1)
